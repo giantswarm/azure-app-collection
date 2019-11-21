@@ -1,0 +1,3 @@
+description: A chart used to deploy App CRs
+name: azure-app-collection-chart
+version: 1.0.0-[[ .SHA ]]
