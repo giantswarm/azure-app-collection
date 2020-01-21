@@ -1,0 +1,40 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  creationTimestamp: null
+  labels:
+    app-operator.giantswarm.io/version: 1.0.0
+  name: cluster-operator-0.21.2
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  config:
+    configMap:
+      name: ""
+      namespace: ""
+    secret:
+      name: ""
+      namespace: ""
+  kubeConfig:
+    context:
+      name: ""
+    inCluster: true
+    secret:
+      name: ""
+      namespace: ""
+  name: cluster-operator
+  namespace: giantswarm
+  userConfig:
+    configMap:
+      name: ""
+      namespace: ""
+    secret:
+      name: ""
+      namespace: ""
+  version: 0.21.2
+status:
+  appVersion: ""
+  release:
+    lastDeployed: "0001-01-01T00:00:00Z"
+    status: ""
+  version: ""
