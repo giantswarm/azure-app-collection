@@ -1,10 +1,12 @@
 apiVersion: application.giantswarm.io/v1alpha1
 kind: App
 metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 1.0.0
-  name: gatekeeper-app-0.1.0
+  name: gatekeeper-app-0.1.2
   namespace: giantswarm
 spec:
   catalog: control-plane-catalog
@@ -31,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.1.0
+  version: 0.1.2
 status:
   appVersion: ""
   release:
