@@ -9,7 +9,7 @@ metadata:
   name: releases-azure-unique
   namespace: giantswarm
 spec:
-  catalog: releases-catalog
+  catalog: releases
   config:
     configMap:
       name: ""
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.0.0-73d7cc2e3cc3e1276f5a74f979dc31397635f6bd
+  version: 0.0.0-14de4d940a5efd1f68a38d884dce521ebb505759
 status:
   appVersion: ""
   release:
