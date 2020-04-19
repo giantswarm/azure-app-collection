@@ -6,7 +6,7 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 1.0.0
-  name: azure-collector-1.0.0
+  name: azure-collector-unique
   namespace: giantswarm
 spec:
   catalog: control-plane-catalog
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.0.0
+  version: 1.0.2
 status:
   appVersion: ""
   release:
