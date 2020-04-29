@@ -6,10 +6,10 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 1.0.0
-  name: releases-azure-unique
+  name: azure-operator-3.0.7
   namespace: giantswarm
 spec:
-  catalog: releases
+  catalog: control-plane-catalog
   config:
     configMap:
       name: ""
@@ -24,7 +24,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  name: releases-azure
+  name: azure-operator
   namespace: giantswarm
   userConfig:
     configMap:
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.0.0-6f004a0e0d63a7b9b0918b3bc4a45c5be5d5043a
+  version: 3.0.7
 status:
   appVersion: ""
   release:
