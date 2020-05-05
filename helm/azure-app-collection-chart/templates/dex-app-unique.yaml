@@ -33,10 +33,10 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.1.0
+  version: 1.0.0
 status:
   appVersion: ""
   release:
-    lastDeployed: "0001-01-01T00:00:00Z"
+    lastDeployed: null
     status: ""
   version: ""
