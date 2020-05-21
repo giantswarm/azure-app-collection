@@ -25,7 +25,7 @@ spec:
       name: ""
       namespace: ""
   name: passage
-  namespace: monitoring
+  namespace: giantswarm
   userConfig:
     configMap:
       name: ""
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.2.2
+  version: 0.2.3
 status:
   appVersion: ""
   release:
