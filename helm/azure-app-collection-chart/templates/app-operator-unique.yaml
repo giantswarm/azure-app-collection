@@ -3,7 +3,7 @@ kind: App
 metadata:
   creationTimestamp: null
   labels:
-    app-operator.giantswarm.io/version: 0.0.0
+    app-operator.giantswarm.io/version: 1.0.0
   name: app-operator-unique
   namespace: giantswarm
 spec:
@@ -31,7 +31,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.0.4
+  version: 1.0.3
 status:
   appVersion: ""
   release:
