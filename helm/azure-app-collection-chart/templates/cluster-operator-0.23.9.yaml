@@ -5,7 +5,7 @@ metadata:
     chart-operator.giantswarm.io/force-helm-upgrade: "true"
   creationTimestamp: null
   labels:
-    app-operator.giantswarm.io/version: 1.0.0
+    app-operator.giantswarm.io/version: 0.0.0
   name: cluster-operator-0.23.9
   namespace: giantswarm
 spec:
