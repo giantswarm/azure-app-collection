@@ -5,7 +5,7 @@ metadata:
     chart-operator.giantswarm.io/force-helm-upgrade: "true"
   creationTimestamp: null
   labels:
-    app-operator.giantswarm.io/version: 1.0.0
+    app-operator.giantswarm.io/version: 0.0.0
   name: prometheus-meta-operator-unique
   namespace: giantswarm
 spec:
