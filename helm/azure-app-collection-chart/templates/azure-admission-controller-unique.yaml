@@ -6,7 +6,7 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
-  name: admission-controller-unique
+  name: azure-admission-controller-unique
   namespace: giantswarm
 spec:
   catalog: control-plane-catalog
@@ -24,7 +24,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  name: admission-controller
+  name: azure-admission-controller
   namespace: giantswarm
   userConfig:
     configMap:
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.3.0
+  version: 1.4.0
 status:
   appVersion: ""
   release:
