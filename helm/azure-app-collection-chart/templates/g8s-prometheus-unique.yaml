@@ -1,6 +1,8 @@
 apiVersion: application.giantswarm.io/v1alpha1
 kind: App
 metadata:
+  annotations:
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
@@ -31,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 2.2.10
+  version: 2.2.11
 status:
   appVersion: ""
   release:
