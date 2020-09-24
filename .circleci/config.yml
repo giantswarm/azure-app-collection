@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            ./architect deploy
+            ./architect legacy deploy
 
 workflows:
   version: 2
