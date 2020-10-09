@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.0.0-696069de082223be0bd0fa6bf08362feceae938b
+  version: 0.0.0-2430b5ce76c4beaad2877a84c59007ce187bcecb
 status:
   appVersion: ""
   release:
