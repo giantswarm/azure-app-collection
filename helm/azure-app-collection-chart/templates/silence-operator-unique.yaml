@@ -25,7 +25,7 @@ spec:
       name: ""
       namespace: ""
   name: silence-operator
-  namespace: giantswarm
+  namespace: monitoring
   userConfig:
     configMap:
       name: ""
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.1.0
+  version: 0.1.1
 status:
   appVersion: ""
   release:
