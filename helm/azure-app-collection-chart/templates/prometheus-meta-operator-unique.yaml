@@ -6,6 +6,7 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
+    config-controller.giantswarm.io/version: 0.0.0
   name: prometheus-meta-operator-unique
   namespace: giantswarm
 spec:
@@ -33,7 +34,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.12.0
+  version: 1.13.0
 status:
   appVersion: ""
   release:
