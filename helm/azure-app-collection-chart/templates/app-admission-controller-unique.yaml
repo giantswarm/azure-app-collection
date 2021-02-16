@@ -6,6 +6,7 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
+    config-controller.giantswarm.io/version: 0.0.0
   name: app-admission-controller-unique
   namespace: giantswarm
 spec:
@@ -33,7 +34,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.4.1
+  version: 0.5.0
 status:
   appVersion: ""
   release:
