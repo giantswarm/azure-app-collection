@@ -27,6 +27,7 @@ spec:
       namespace: ""
   name: releases-azure
   namespace: giantswarm
+  namespaceConfig: {}
   userConfig:
     configMap:
       name: ""
@@ -34,10 +35,4 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.0.0-740acf88f6c9df13ad17433d165e0f0deb0217e4
-status:
-  appVersion: ""
-  release:
-    lastDeployed: null
-    status: ""
-  version: ""
+  version: 0.0.0-338828cc9704c9a502db2bb894b445329aa13057
