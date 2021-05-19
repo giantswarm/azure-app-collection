@@ -3,7 +3,7 @@ kind: App
 metadata:
   annotations:
     chart-operator.giantswarm.io/force-helm-upgrade: "true"
-    config.giantswarm.io/version: 1.x.x
+    config.giantswarm.io/version: ignore
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
@@ -36,4 +36,4 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 2.5.0
+  version: 2.7.0
