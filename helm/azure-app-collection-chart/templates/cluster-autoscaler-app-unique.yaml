@@ -27,6 +27,7 @@ spec:
       namespace: ""
   name: cluster-autoscaler-app
   namespace: kube-system
+  namespaceConfig: {}
   userConfig:
     configMap:
       name: ""
@@ -34,4 +35,4 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.20.2
+  version: 1.19.3
