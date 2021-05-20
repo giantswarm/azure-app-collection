@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: releases-azure
+  namespace: argocd
+spec:
+  destination:
+    namespace: giantswarm
+    server: https://kubernetes.default.svc
+  project: collections
+  source:
+    path: .
+    plugin:
+      env:
+      - name: KONFIGURE_APP_NAME
+        value: releases-azure
+      - name: KONFIGURE_APP_VERSION
+        value: 0.0.0-abd4d284d20e97b928fe366df15d8ab1fc21ae32
+      - name: KONFIGURE_APP_CATALOG
+        value: releases
+      name: konfigure
+    repoURL: https://github.com/giantswarm/config.git
+    targetRevision: FIXME
+  syncPolicy:
+    automated:
+      allowEmpty: true
+      prune: true
+      selfHeal: true
