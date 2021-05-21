@@ -35,4 +35,4 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.0.0-abd4d284d20e97b928fe366df15d8ab1fc21ae32
+  version: 0.0.0-7e25c1c5100d018c38ffb1cca9c3c2a581b0842a
