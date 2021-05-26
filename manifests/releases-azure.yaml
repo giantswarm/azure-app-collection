@@ -15,12 +15,12 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: releases-azure
       - name: KONFIGURE_APP_VERSION
-        value: 0.0.0-7e25c1c5100d018c38ffb1cca9c3c2a581b0842a
+        value: 0.0.0-c2b7ecf4813338b5b9084de4847e5f0c419f21b6
       - name: KONFIGURE_APP_CATALOG
         value: releases
       name: konfigure
     repoURL: https://github.com/giantswarm/config.git
-    targetRevision: FIXME
+    targetRevision: v1
   syncPolicy:
     automated:
       allowEmpty: true
