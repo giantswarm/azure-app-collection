@@ -15,7 +15,7 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: releases-azure
       - name: KONFIGURE_APP_VERSION
-        value: 0.0.0-7ebbb5bc4be518b97d8c72a0592b411db73ef471
+        value: 0.0.0-4867d120238a9349f495ed36b1e7758cdac68d30
       - name: KONFIGURE_APP_CATALOG
         value: releases
       name: konfigure
