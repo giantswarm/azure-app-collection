@@ -15,12 +15,14 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: azure-admission-controller
       - name: KONFIGURE_APP_VERSION
-        value: 2.7.0
+        value: 3.0.0
       - name: KONFIGURE_APP_CATALOG
         value: control-plane-catalog
       name: konfigure
     repoURL: https://github.com/giantswarm/config.git
-    targetRevision: ignore
+    targetRevision: v1
   syncPolicy:
     automated:
+      allowEmpty: true
       prune: true
+      selfHeal: true
