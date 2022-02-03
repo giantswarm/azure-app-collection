@@ -1,0 +1,13 @@
+api_version: generators.giantswarm.io/v1
+app_catalog: releases
+app_destination_namespace: giantswarm
+app_name: releases-azure
+app_version: 0.0.0-a5299f99e3be57d027ba4cf0d2120511a1728ac8
+kind: Konfigure
+metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
+  name: releases-azure
+name: releases-azure
