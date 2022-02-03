@@ -17,9 +17,9 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: rbac-operator
       - name: KONFIGURE_APP_VERSION
-        value: 0.19.1
+        value: 0.19.0-81f404efc73d4e1a4d20058fd093541138b7b88b
       - name: KONFIGURE_APP_CATALOG
-        value: control-plane-catalog
+        value: control-plane-test-catalog
       name: konfigure
     repoURL: https://github.com/giantswarm/config.git
     targetRevision: v1
