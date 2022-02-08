@@ -1,3 +1,4 @@
 generators:
 - kustomization.yaml
 - starboard-app.yaml
+- vertical-pod-autoscaler-app.yaml
