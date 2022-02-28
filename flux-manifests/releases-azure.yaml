@@ -1,5 +1,5 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: releases
+app_catalog: releases-test
 app_destination_namespace: giantswarm
 app_name: releases-azure
 app_version: 0.0.0-08b29d350429821644621eac3460821e9dbf7218
