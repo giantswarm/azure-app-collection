@@ -9,8 +9,8 @@ generators:
 - cert-exporter.yaml
 - cert-manager-app.yaml
 - chart-operator.yaml
-- cluster-api.yaml
 - cluster-api-provider-azure.yaml
+- cluster-api.yaml
 - cluster-apps-operator.yaml
 - cluster-autoscaler-app.yaml
 - cluster-service.yaml
