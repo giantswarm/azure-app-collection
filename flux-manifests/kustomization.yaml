@@ -3,11 +3,15 @@ generators:
 - app-exporter.yaml
 - app-operator.yaml
 - athena.yaml
+- azure-ad-pod-identity-app.yaml
 - azure-admission-controller.yaml
 - azure-collector.yaml
 - cert-exporter.yaml
 - cert-manager-app.yaml
 - chart-operator.yaml
+- cluster-api.yaml
+- cluster-api-provider-azure.yaml
+- cluster-apps-operator.yaml
 - cluster-autoscaler-app.yaml
 - cluster-service.yaml
 - config-controller.yaml
