@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
 app_destination_namespace: kube-system
 app_name: cluster-autoscaler-app
-app_version: 1.22.2-gs4
+app_version: 1.21.2-gs1
 kind: Konfigure
 metadata:
   annotations:
