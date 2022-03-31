@@ -35,7 +35,6 @@ generators:
 - node-operator.yaml
 - oauth2-proxy.yaml
 - organization-operator.yaml
-- policies-shared.yaml
 - prometheus-meta-operator.yaml
 - prometheus-operator-app.yaml
 - prometheus-operator-crd.yaml
