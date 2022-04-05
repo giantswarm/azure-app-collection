@@ -27,6 +27,7 @@ generators:
 - kube-state-metrics-app.yaml
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
+- kyverno-policies.yaml
 - kyverno.yaml
 - macropower-analytics-panel-server.yaml
 - management-cluster-admission.yaml
