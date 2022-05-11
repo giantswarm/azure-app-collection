@@ -24,6 +24,7 @@ generators:
 - fluent-logshipping-app.yaml
 - grafana.yaml
 - happa.yaml
+- hello-world.yaml
 - kube-state-metrics-app.yaml
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
