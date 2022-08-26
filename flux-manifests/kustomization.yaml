@@ -48,7 +48,6 @@ generators:
 - release-operator.yaml
 - releases-azure.yaml
 - silence-operator.yaml
-- starboard-app.yaml
 - starboard-exporter.yaml
 - trivy-app.yaml
 - upgrade-schedule-operator.yaml
