@@ -2,7 +2,7 @@ api_version: generators.giantswarm.io/v1
 app_catalog: releases
 app_destination_namespace: giantswarm
 app_name: releases-azure
-app_version: 0.0.0-3278a8f8658e0eacb60f6d0b87e11d4aae12cb72
+app_version: 0.0.0-c1e82fc8ff7d51bc48b23d24fc8a53da630a15ac
 kind: Konfigure
 metadata:
   annotations:
