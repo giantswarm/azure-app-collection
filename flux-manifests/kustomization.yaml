@@ -20,6 +20,7 @@ generators:
 - dex-app.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
+- etcd-kubernetes-resources-count-exporter.yaml
 - event-exporter-app.yaml
 - falco-app.yaml
 - fluent-logshipping-app.yaml
