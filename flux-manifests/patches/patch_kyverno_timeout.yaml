@@ -1,0 +1,10 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  name: kyverno
+  namespace: giantswarm
+spec:
+  install:
+    timeout: 10m
+  upgrade:
+    timeout: 10m
