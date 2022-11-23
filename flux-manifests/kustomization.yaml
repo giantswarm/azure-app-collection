@@ -8,6 +8,7 @@ generators:
 - azure-collector.yaml
 - cert-exporter.yaml
 - cert-manager-app.yaml
+- cert-operator.yaml
 - chart-operator.yaml
 - cluster-api-provider-azure.yaml
 - cluster-api.yaml
