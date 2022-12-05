@@ -19,6 +19,7 @@ generators:
 - credentiald.yaml
 - dashboards.yaml
 - dex-app.yaml
+- dex-operator.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - etcd-kubernetes-resources-count-exporter.yaml
