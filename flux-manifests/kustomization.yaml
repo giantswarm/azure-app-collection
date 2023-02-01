@@ -24,7 +24,6 @@ generators:
 - etcd-backup-operator.yaml
 - etcd-kubernetes-resources-count-exporter.yaml
 - event-exporter-app.yaml
-- falco-app.yaml
 - falco.yaml
 - fluent-logshipping-app.yaml
 - grafana.yaml
