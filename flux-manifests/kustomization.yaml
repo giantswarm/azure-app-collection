@@ -34,7 +34,6 @@ generators:
 - kyverno-policies.yaml
 - kyverno.yaml
 - macropower-analytics-panel-server.yaml
-- management-cluster-admission.yaml
 - metrics-server-app.yaml
 - net-exporter.yaml
 - node-exporter-app.yaml
