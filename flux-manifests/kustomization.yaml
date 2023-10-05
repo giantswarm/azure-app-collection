@@ -32,6 +32,7 @@ generators:
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
 - kyverno-policies.yaml
+- kyverno-policy-operator.yaml
 - kyverno.yaml
 - macropower-analytics-panel-server.yaml
 - metrics-server-app.yaml
