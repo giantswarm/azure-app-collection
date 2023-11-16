@@ -16,6 +16,7 @@ generators:
 - cluster-autoscaler-app.yaml
 - cluster-service.yaml
 - config-controller.yaml
+- credentiald.yaml
 - dashboards.yaml
 - dex-app.yaml
 - dex-operator.yaml
