@@ -20,7 +20,6 @@ generators:
 - dashboards.yaml
 - dex-app.yaml
 - dex-operator.yaml
-- dipstick.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - etcd-kubernetes-resources-count-exporter.yaml
