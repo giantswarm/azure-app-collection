@@ -51,7 +51,6 @@ generators:
 - pss-operator.yaml
 - rbac-operator.yaml
 - release-operator.yaml
-- releases-azure.yaml
 - silence-operator.yaml
 - sloth-rules.yaml
 - sloth.yaml
